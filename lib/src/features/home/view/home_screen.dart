@@ -84,7 +84,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 AdaptiveContainer(
                   columnSpan: 12,
                   child: Padding(
-                    padding: const EdgeInsets.all(35),
+                    padding: const EdgeInsets.fromLTRB(20, 25, 20, 10),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
@@ -120,7 +120,10 @@ class _HomeScreenState extends State<HomeScreen> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Padding(
-                        padding: const EdgeInsets.all(35),
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 15,
+                          vertical: 10,
+                        ),
                         child: Text(
                           'Recently played',
                           style: context.headlineSmall,
@@ -135,7 +138,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 AdaptiveContainer(
                   columnSpan: 12,
                   child: Padding(
-                    padding: const EdgeInsets.all(35),
+                    padding: const EdgeInsets.all(15),
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
@@ -146,7 +149,8 @@ class _HomeScreenState extends State<HomeScreen> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Padding(
-                                padding: const EdgeInsets.all(35),
+                                padding:
+                                    const EdgeInsets.only(left: 8, bottom: 8),
                                 child: Text(
                                   'Top Songs Today',
                                   style: context.titleLarge,
@@ -170,7 +174,8 @@ class _HomeScreenState extends State<HomeScreen> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Padding(
-                                padding: const EdgeInsets.all(35),
+                                padding:
+                                    const EdgeInsets.only(left: 8, bottom: 8),
                                 child: Text(
                                   'New Releases',
                                   style: context.titleLarge,
