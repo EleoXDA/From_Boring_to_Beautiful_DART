@@ -12,7 +12,7 @@ class HomeHighlight extends StatelessWidget {
       children: [
         Expanded(
           child: Padding(
-            padding: const EdgeInsets.all(35),
+            padding: const EdgeInsets.symmetric(horizontal: 35, vertical: 5),
             child: Clickable(
               child: SizedBox(
                 height: 275,
