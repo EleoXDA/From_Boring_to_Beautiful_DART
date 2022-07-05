@@ -15,7 +15,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   final settings = ValueNotifier(ThemeSettings(
-    sourceColor: Colors.pink, // Replace this color
+    sourceColor: Color(0xff004c52),
     themeMode: ThemeMode.system,
   ));
   @override
