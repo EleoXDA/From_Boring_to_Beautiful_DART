@@ -1,6 +1,6 @@
-# step_01
+# From Boring to Beautiful
 
-A new Flutter project.
+This flutter project shows how using Dart language it is possible to beautify any simple app.
 
 ## Getting Started
 
